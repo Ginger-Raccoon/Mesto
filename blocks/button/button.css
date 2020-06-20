@@ -1,0 +1,22 @@
+@import url(../button/_edit/button_edit.css);
+@import url(../button/_add/button_add.css);
+
+
+.button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline-color: greenyellow;
+}
+
+@media screen and (max-width: 980px) {
+  .button{
+    display: inline;
+  }
+}
+

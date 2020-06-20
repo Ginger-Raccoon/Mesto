@@ -1,0 +1,7 @@
+@import url('./_form/popup__content_form.css');
+
+.popup__content {
+  position: relative;
+  box-sizing: border-box;
+}
+
